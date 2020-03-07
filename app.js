@@ -87,6 +87,6 @@ images.init(
     }
 );
 
-app.listen(3000, ()=> console.log('Server Running on port 3000!'));
+app.listen(80, ()=> console.log('Server Running on port 3000!'));
 
 module.exports = app;
